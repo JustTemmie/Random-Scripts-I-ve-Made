@@ -1,0 +1,1 @@
+these are just random scripts i've created over the years, the only reason they're on github is so i can use them as reference for future scripts
