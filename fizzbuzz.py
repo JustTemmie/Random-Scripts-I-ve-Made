@@ -4,14 +4,23 @@ from re import X
 
 fizz = 3
 buzz = 5
+fozz = 7
+bozz = 11
+
+def check(x, nr, string):
+    if x % nr == 0:
+        return string
+    return ""
+
 for x in range(0,1000):
     output = ""
-    if x % fizz == 0:
-        output += "fizz"
-    if x % buzz == 0:
-        output += "buzz"
+    output += check(x, fizz, "fizz")
+    output += check(x, buzz, "buzz")
+    output += check(x, fozz, "fozz")
+    output += check(x, bozz, "bozz")
     
-    if x % fizz != 0 and x % buzz != 0:
+    
+    if output == "":
         output = x
     
     print(output)
