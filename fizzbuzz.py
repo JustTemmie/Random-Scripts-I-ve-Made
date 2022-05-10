@@ -1,7 +1,6 @@
 #make fizzbuzz 
 from re import X
 
-
 fizz = 3
 buzz = 5
 fozz = 7
