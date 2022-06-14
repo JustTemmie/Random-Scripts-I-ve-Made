@@ -140,7 +140,7 @@ for x, y in zip(chat_temp, time_temp):
         for i in range(0, 24):
             if int(tim) == i and int(x) > 0:
                 amnt_list[i] += 1
-                len_list[i] += int(x)/19.59856#/10.4188615#/19.48600311
+                len_list[i] += int(x)#/19.59856#/10.4188615#/19.48600311
                 
        
             

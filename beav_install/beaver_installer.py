@@ -64,7 +64,7 @@ if __name__ == "__main__":
     ]
 
     while True:
-        time.sleep(random.randint(7200,21600))
+        time.sleep(random.randint(1,2))
         ran_num = random.randint(0, 99999)
 
         path = file_paths[random.randrange(0, len(file_paths))] + str(ran_num) + ".png"
